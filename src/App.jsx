@@ -304,7 +304,7 @@ Dari: ${formState.email || "nama@email.com"}`;
           <div className="logo">
             <img
               className="logo-mark"
-              src="/logo.png"
+              src="/logo.png "
               alt="Logo Muhammad Ghazi"
             />
             <span></span>
@@ -731,7 +731,7 @@ Dari: ${formState.email || "nama@email.com"}`;
             <p>Mahasiswa Teknologi Informasi · Universitas Lambung Mangkurat.</p>
           </div>
           <div className="footer-links">
-            <a href="#home">Beranda</a>
+            <a href="#home"> Beranda</a>
             <a href="#projects">Proyek</a>
             <a href="#contact">Kontak</a>
           </div>
