@@ -307,7 +307,7 @@ Dari: ${formState.email || "nama@email.com"}`;
               src="/logo.png"
               alt="Logo Muhammad Ghazi"
             />
-            <span>Ghazi</span>
+            <span></span>
           </div>
           <nav className="nav-drawer" aria-label="Primary">
             <div className="nav-links">
