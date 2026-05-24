@@ -151,6 +151,10 @@ img {
   gap: 12px;
 }
 
+.nav-actions:empty {
+  display: none;
+}
+
 .primary-button,
 .ghost-button {
   display: inline-flex;

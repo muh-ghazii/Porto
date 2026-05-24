@@ -322,14 +322,7 @@ Dari: ${formState.email || "nama@email.com"}`;
                 </a>
               ))}
             </div>
-            <div className="nav-actions">
-              <a className="ghost-button" href="#projects">
-                Lihat proyek
-              </a>
-              <a className="primary-button" href="#contact">
-                Hubungi saya
-              </a>
-            </div>
+            <div className="nav-actions" />
           </nav>
           <button
             className="menu-toggle"
