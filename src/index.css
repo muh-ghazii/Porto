@@ -100,14 +100,14 @@ img {
 }
 
 .logo-mark {
-  display: grid;
-  place-items: center;
-  width: 40px;
-  height: 40px;
+  width: 42px;
+  height: 42px;
   border-radius: 12px;
-  background: linear-gradient(135deg, var(--accent), var(--accent-2));
-  color: #fff;
-  font-weight: 700;
+  background: #fff;
+  border: 1px solid var(--border);
+  padding: 6px;
+  object-fit: contain;
+  box-shadow: 0 4px 10px rgba(214, 0, 28, 0.15);
 }
 
 .nav-drawer {
@@ -300,6 +300,8 @@ img {
   position: relative;
   overflow: hidden;
   box-shadow: 0 4px 16px rgba(214, 0, 28, 0.08);
+  display: grid;
+  gap: 18px;
 }
 
 .profile-ring {
@@ -309,8 +311,24 @@ img {
   height: 220px;
   border-radius: 50%;
   background: radial-gradient(circle, var(--glow), transparent 70%);
+  z-index: 0;
 }
 
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #fff;
+  box-shadow: 0 10px 24px rgba(214, 0, 28, 0.2);
+  position: relative;
+  z-index: 1;
+}
+
+.profile-content {
+  position: relative;
+  z-index: 1;
+}
 .profile-content ul {
   list-style: none;
   padding: 0;
@@ -797,7 +815,7 @@ textarea:focus {
     width: 34px;
     height: 34px;
     border-radius: 10px;
-    font-size: 0.9rem;
+    padding: 5px;
   }
 
   .hero h1 {

@@ -16,10 +16,10 @@ const navLinks = [
 ];
 
 const stats = [
-  { value: "IPK 3.91", label: "GPA ULM" },
-  { value: "10+", label: "Sertifikasi" },
-  { value: "6+", label: "Peran organisasi" },
-  { value: "2", label: "Proyek akademik" }
+  { value: "IPK 3.91 ", label: "GPA ULM" },
+  { value: "10+ ", label: "Sertifikasi" },
+  { value: "6+ ", label: "Peran organisasi" },
+  { value: "2 ", label: "Proyek akademik" }
 ];
 
 const focusAreas = [
@@ -76,7 +76,7 @@ const experience = [
     highlights: ["Kepemimpinan", "Public speaking", "Kolaborasi lintas divisi"]
   },
   {
-    role: "Chairman of Information Technology Student Association 2026",
+    role: "Ketua Umum Himpunan Mahasiswa Teknologi Informasi FT ULM",
     company: "Himpunan Mahasiswa Teknologi Informasi FT ULM (HMTI)",
     period: "Jan 2026 — Saat ini",
     summary:
@@ -88,14 +88,12 @@ const experience = [
     ]
   },
   {
-    role: "Member of Student Resource Development Department (Division 3)",
+    role: "Anggota Divisi Pengembangan Sumber Daya Mahasiswa (Divisi 3)",
     company: "HMTI FT ULM",
     period: "Jan 2025 — Des 2025",
     summary:
       "Anggota Divisi PSDM serta keterlibatan hubungan masyarakat pemilihan ketua himpunan.",
     highlights: [
-      "Anggota Divisi PSDM HMTI 2025",
-      "Anggota Divisi Hubungan Masyarakat Pemilihan Ketua Himpunan"
     ]
   },
   {
@@ -304,7 +302,11 @@ Dari: ${formState.email || "nama@email.com"}`;
       <header className="site-header">
         <div className="container nav">
           <div className="logo">
-            <span className="logo-mark">MG</span>
+            <img
+              className="logo-mark"
+              src="/logo.png"
+              alt="Logo Muhammad Ghazi"
+            />
             <span>Muhammad Ghazi</span>
           </div>
           <nav className="nav-drawer" aria-label="Primary">
@@ -346,10 +348,9 @@ Dari: ${formState.email || "nama@email.com"}`;
         <section id="home" className="hero">
           <div className="container hero-grid">
             <div className="hero-copy reveal">
-              <p className="eyebrow">Portofolio Software Engineer</p>
+              <p className="eyebrow">Portofolio Pribadi</p>
               <h1>
-                Muhammad Ghazi Rakhmadi — Mahasiswa Teknologi Informasi
-                Universitas Lambung Mangkurat.
+                Muhammad Ghazi Rakhmadi-TI ULM.
               </h1>
               <p className="lead">
                 Berfokus pada pengembangan web, UI interaktif, dan fondasi
@@ -382,6 +383,11 @@ Dari: ${formState.email || "nama@email.com"}`;
             <div className="hero-visual reveal">
               <div className="profile-card">
                 <div className="profile-ring" />
+                <img
+                  className="profile-photo"
+                  src="/profile.jpg"
+                  alt="Muhammad Ghazi Rakhmadi"
+                />
                 <div className="profile-content">
                   <p className="profile-title">Kekuatan utama</p>
                   <ul>
@@ -397,9 +403,9 @@ Dari: ${formState.email || "nama@email.com"}`;
                 </div>
               </div>
               <div className="floating-card">
-                <p className="floating-title">Sedang dipelajari</p>
+                <p className="floating-title">Sedang mempelajari</p>
                 <p className="floating-text">
-                  Front-end web, analisis data, dan cybersecurity.
+                  Pengembangan Web, Pengembangan Mobile, Big Data, Machine Learning dan Cybersecurity.
                 </p>
                 <div className="floating-metrics">
                   <span>Dicoding</span>
@@ -708,7 +714,12 @@ Dari: ${formState.email || "nama@email.com"}`;
         <div className="container footer-grid">
           <div>
             <p className="logo">
-              <span className="logo-mark">MG</span>Muhammad Ghazi
+              <img
+                className="logo-mark"
+                src="/logo.png"
+                alt="Logo Muhammad Ghazi"
+              />
+              Muhammad Ghazi
             </p>
             <p>Mahasiswa Teknologi Informasi · Universitas Lambung Mangkurat.</p>
           </div>
